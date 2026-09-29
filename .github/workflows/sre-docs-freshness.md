@@ -1,8 +1,6 @@
 ---
 name: SRE Agent Docs Freshness
 on:
-  schedule:
-    - cron: "0 7 * * 1"   # Mondays 07:00 UTC
   workflow_dispatch:
 engine: copilot
 permissions:
