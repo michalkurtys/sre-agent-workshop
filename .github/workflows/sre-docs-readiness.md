@@ -1,8 +1,6 @@
 ---
 name: SRE Agent Docs Readiness
 on:
-  schedule:
-    - cron: "0 7 * * 4"   # Thursdays 07:00 UTC (offset from docs-freshness on Mondays)
   workflow_dispatch:
 engine: copilot
 permissions:
